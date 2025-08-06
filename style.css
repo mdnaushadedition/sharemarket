@@ -234,6 +234,24 @@
             max-width: 700px;
             margin: 0 auto 40px;
         }
+        .live-up{ 
+            font-size: x-large;
+            background-color: #fff;
+            border-left: 2px inset;
+            border-right: 2px outset;
+            position: sticky;
+            top: 70px;
+            left: 0;
+            z-index: 10000;
+        }
+        .username{ 
+            color: #0338e7; 
+            padding: 0 10px;
+        }
+        .Current{ 
+            color: green;
+            padding-left: 15px;
+        }
 
         .cta-button {
             padding: 12px 30px;
@@ -277,6 +295,7 @@
             transition: transform 0.3s, box-shadow 0.3s;
             opacity: 0;
             transform: translateX(-50px);
+            background-color: blue;
         }
 
         .feature.visible {
@@ -456,11 +475,6 @@
             .navbar {
                 padding: 15px 3%;
             }
-
-            .nav-links {
-                display: none;
-            }
-
             .hero h1 {
                 font-size: 2rem;
             }
